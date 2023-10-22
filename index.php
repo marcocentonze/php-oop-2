@@ -125,8 +125,53 @@ $pet_products = [
                 </div>
             <?php endforeach; ?>
         </div>
-
     </div>
+
+    <footer class="footer text-light">
+        <section class="bg-secondary">
+    <div class="container mt-4">
+    <div class="row">
+        <div class="col-md-4">
+            <h3>Contatti</h3>
+            <ul>
+                <li>Indirizzo: Via Example, 123</li>
+                <li>Email: info@example.com</li>
+                <li>Telefono: +1 123-456-7890</li>
+            </ul>
+        </div>
+        <div class="col-md-4">
+            <h3>Servizi</h3>
+            <ul>
+                <li>Servizio 1</li>
+                <li>Servizio 2</li>
+                <li>Servizio 3</li>
+            </ul>
+        </div>
+        <div class="col-md-4">
+            <h3>Servizio Clienti</h3>
+            <ul>
+                <li>Domande frequenti</li>
+                <li>Politica di reso</li>
+                <li>Assistenza clienti</li>
+            </ul>
+        </div>
+    </div>
+</div>
+                            </section>
+
+                            <section class="bg-dark">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <p>&copy; 2023 Pet Store</p>
+            </div>
+            <div class="col-md-6">
+                <p class="text-end">Developed with love by Marco Centonze</p>
+            </div>
+        </div>
+    </div>
+    </section>
+</footer>
 
 
 
