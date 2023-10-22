@@ -1,5 +1,6 @@
 <?php
 
+require_once 'Product.php';
 class Toy extends Product
 {
     public $name_product;

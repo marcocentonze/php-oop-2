@@ -1,5 +1,5 @@
 <?php
-
+require_once 'Product.php';
 class Food extends Product
 {
     public $name_product;
@@ -12,3 +12,4 @@ class Food extends Product
         $this->weight = $_weight;
     }
 }
+

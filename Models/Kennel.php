@@ -1,4 +1,6 @@
 <?php
+
+require_once 'Product.php';
 class Kennel extends Product
 {
     public $name_product;
