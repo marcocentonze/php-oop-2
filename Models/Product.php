@@ -15,7 +15,7 @@ class Product
     }
 
     public function setPrice($_price) {
-        if ($_price < 0) {
+        if ($_price <= 0) {
             throw new Exception('Il prodotto non è al momento disponibile!');
         }
         $this->price = $_price;
