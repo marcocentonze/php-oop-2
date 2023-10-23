@@ -20,7 +20,7 @@
                         </ul>
                     </div>
                     <div class="col-md-4">
-                        <h3>Servizio Clienti</h3>
+                        <h3>Customer service</h3>
                         <ul>
                             <li>Frequently Asked Questions</li>
                             <li>Return Policy</li>

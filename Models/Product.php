@@ -13,4 +13,12 @@ class Product
         $this->price = $_price;
         $this->category = $_category;
     }
+
+    public function setPrice($_price) {
+        if ($_price < 0) {
+            throw new Exception('Il prodotto non è al momento disponibile!');
+        }
+        $this->price = $_price;
+    }
+
 }
