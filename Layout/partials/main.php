@@ -16,6 +16,9 @@
                                 <li>Material: <?= $pet_product->rating; ?></li>
                             <?php endif; ?>
                             <li>Price: <?= $pet_product->price; ?></li>
+                            <?php if ($pet_product instanceof Kennel) : ?>
+                            <li>Color: <?= $pet_product->getColor(); ?></li>
+                        <?php endif; ?>
                         </ul>
                     </div>
                 </div>

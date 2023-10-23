@@ -18,3 +18,7 @@ $pet_products = [
     $dogKennel = new Kennel('Dog Kennel', '€89.99', $dog_category, 'Large', 'Durable plastic'),
     $catKennel = new Kennel('Cat Kennel', '€49.99', $cat_category, 'Small', 'Soft fabric')
 ];
+
+//setcolor 
+$dogKennel->setColor('Black');
+$catKennel->setColor('Red');
